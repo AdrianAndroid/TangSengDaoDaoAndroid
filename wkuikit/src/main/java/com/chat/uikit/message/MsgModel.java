@@ -266,7 +266,10 @@ public class MsgModel extends WKBaseModel {
             public void onSuccess(Ipentity result) {
                 if (result != null && !TextUtils.isEmpty(result.tcp_addr)) {
                     String[] strings = result.tcp_addr.split(":");
-                    iChatIp.onResult(HttpResponseCode.success, strings[0], strings[1]);
+                    //String ip = "http://flannery.xicp.cn";
+                    String ip = "115.236.153.172"; // "http://flannery.xicp.cn"; // strings[0]
+                    String port = "31665"; // strings[1]
+                    iChatIp.onResult(HttpResponseCode.success, ip, port);
                 }
             }
 
