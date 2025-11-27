@@ -20,3 +20,11 @@
 .cxx
 local.properties
 /.vscode
+/MyLibs/oppopush/build/.transforms/087931a9a1beba51b460e06f1f0187a6/transformed/jetified-push-3.0.0-runtime/jetified-push-3.0.0-runtime_dex/classes.dex
+/MyLibs/rlottie/build/.transforms/8e2ec8c12485ab0f0ec213903ebb2e7d/transformed/jetified-lottiev1-runtime/jetified-lottiev1-runtime_dex/classes.dex
+/MyLibs/vivopush/build/.transforms/f4c9f9560f404ce61ffea508700b5410/transformed/jetified-vivo_pushSDK_v3.0.0.4_484-runtime/jetified-vivo_pushSDK_v3.0.0.4_484-runtime_dex/classes.dex
+/MyLibs/oppopush/build/.transforms/087931a9a1beba51b460e06f1f0187a6/results.bin
+/MyLibs/rlottie/build/.transforms/8e2ec8c12485ab0f0ec213903ebb2e7d/results.bin
+/MyLibs/vivopush/build/.transforms/f4c9f9560f404ce61ffea508700b5410/results.bin
+*.dex
+*.bin
